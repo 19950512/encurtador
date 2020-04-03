@@ -8,11 +8,19 @@ na raíz do projeto, abra o terminal
 ```
 
 
-## Pastas ##
+## Pastas / Arquivos ##
 
-Modules
-    DevNux.py
-    RW.py
-    URL.py
-store
-main.py
+<ul>
+  <li>
+    <p>Modules</p>
+    <ul>
+      <li>DevNux.py</li>
+      <li>RW.py</li>
+      <li>URL.py</li>
+    </ul>
+  </li>
+  <li>
+    <p>store</p>
+  </li>
+  <li>main.py</li>
+</ul>
