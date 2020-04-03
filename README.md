@@ -3,6 +3,29 @@ Exercício feito em Aula - Python - IMED - RS
 
 
 # Desafio #
+Crie um sistema que transforme URLs grandes como "https://imed.edu.br/Ensino/ciencia-da-computacao/graduacao/sobre-a-profissao/" em uma URL curta.
+
+Exemplo: imed.to/g8
+
+Usando a função hash BASE62:
+base62('g8') => 1000
+
+BASE62 - Informações importantes:
+
+	  a-z (minúsculas): 26 caracteres no total
+	  A-Z (maiúsculas): 26 caracteres no total
+	  0-9 (números)   : 10 caracteres
+	  --
+	  Total de 62 combinações (base 62) – ver arquivo: base62.py
+
+A ideia é ter uma estrutura com:
+
+   1) Um dicionário onde sua chave será um valor obtido a partir do auto-incremento e apontará para uma tupla com a URL encurtada e a original.
+    
+        a. Exemplo: Chave 1000 =>  ("g8", "https://imed.edu.br/Ensino/ciencia-da-computacao/graduacao/sobre-a-profissao/")
+
+** Auto-incremento: A implementação deverá ter um contador que irá iniciar no valor 1000 **
+
     • Criar um menu e incluir operações para:
         ◦ Converter URL para URL curta, armazenando sequencialmente as urls em um dicionário
         ◦ Testar a conversão de um inteiro para string codificada, usando método do módulo base62 disponibilizado
