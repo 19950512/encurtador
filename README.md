@@ -2,7 +2,7 @@
 Exercício feito em Aula - Python - IMED - RS
 
 
-# Desafio #
+# Desafio (Hashs) #
 Crie um sistema que transforme URLs grandes como "https://imed.edu.br/Ensino/ciencia-da-computacao/graduacao/sobre-a-profissao/" em uma URL curta.
 
 Exemplo: imed.to/g8
@@ -22,7 +22,7 @@ A ideia é ter uma estrutura com:
 
    1) Um dicionário onde sua chave será um valor obtido a partir do auto-incremento e apontará para uma tupla com a URL encurtada e a original.
     
-        a. Exemplo: Chave 1000 =>  ("g8", "https://imed.edu.br/Ensino/ciencia-da-computacao/graduacao/sobre-a-profissao/")
+        a. Exemplo: Chave 1000 =>  ("g8", "<a target="_blak" href="https://imed.edu.br/Ensino/ciencia-da-computacao/graduacao/sobre-a-profissao/">https://imed.edu.br/Ensino/ciencia-da-computacao/graduacao/sobre-a-profissao/</a>")
 
 ** Auto-incremento: A implementação deverá ter um contador que irá iniciar no valor 1000 **
 
@@ -35,7 +35,7 @@ A ideia é ter uma estrutura com:
         ◦ Carregar arquivo com tabelas
 
 Para salvar e carregar as tabelas use a biblioteca PICKLE do python.
-	https://www.vivaolinux.com.br/dica/Python-3.0-Gravando-dicionarios-em-arquivos/
+	<a target="_blak" href="https://www.vivaolinux.com.br/dica/Python-3.0-Gravando-dicionarios-em-arquivos/">https://www.vivaolinux.com.br/dica/Python-3.0-Gravando-dicionarios-em-arquivos/</a>
 
 
 <br />
